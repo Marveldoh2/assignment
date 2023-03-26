@@ -1,0 +1,33 @@
+body{
+    justify-content: center;
+  
+}
+.j{
+    width: 50px;
+    height: 50px;
+  background-image: url(100159.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+    animation-duration: 2s;
+    animation-name: hello;
+   
+    animation-iteration-count: infinite;
+
+ 
+    
+}
+@keyframes hello{
+
+    from{
+ 
+        transform:rotate (0turn);
+    
+    }
+    to{
+        transform: rotate(1turn);
+    }
+
+}
+
+
